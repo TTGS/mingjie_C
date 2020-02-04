@@ -13,19 +13,19 @@ int main(void)
 
 	switch  (month) 
 	      {	
-case 3  : printf("%d月是春季。\n", month); break;
-case 4  : printf("%d月是春季。\n", month); break;
-case 5  : printf("%d月是春季。\n", month); break;
-case 6  : printf("%d月是夏季。\n", month); break;
-case 7  : printf("%d月是夏季。\n", month); break;
-case 8  : printf("%d月是夏季。\n", month); break;
-case 9  : printf("%d月是秋季。\n", month); break;
-case 10 : printf("%d月是秋季。\n", month); break;
-case 11 : printf("%d月是秋季。\n", month); break;
-case 12 : printf("%d月是冬季。\n", month); break;
-case 1  : printf("%d月是冬季。\n", month); break;
-case 2  : printf("%d月是冬季。\n", month); break;
-default : printf("%d月不存在!!\a\n", month);
+		case 3  : printf("%d月是春季。\n", month); break;
+		case 4  : printf("%d月是春季。\n", month); break;
+		case 5  : printf("%d月是春季。\n", month); break;
+		case 6  : printf("%d月是夏季。\n", month); break;
+		case 7  : printf("%d月是夏季。\n", month); break;
+		case 8  : printf("%d月是夏季。\n", month); break;
+		case 9  : printf("%d月是秋季。\n", month); break;
+		case 10 : printf("%d月是秋季。\n", month); break;
+		case 11 : printf("%d月是秋季。\n", month); break;
+		case 12 : printf("%d月是冬季。\n", month); break;
+		case 1  : printf("%d月是冬季。\n", month); break;
+		case 2  : printf("%d月是冬季。\n", month); break;
+		default : printf("%d月不存在!!\a\n", month);
 	      }
 	return 0;
 }
