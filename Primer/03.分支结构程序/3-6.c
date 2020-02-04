@@ -18,7 +18,7 @@ min=x;
 
 if (y<min)  
 	min=y;
-else  if (z<min)  
+if (z<min)  
 	min=z;
 
 printf("min=%d \n",min);	
