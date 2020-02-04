@@ -4,6 +4,8 @@ int main(void)
 {
 int a,b,c;
 
+	puts("请输入三个整数。");
+	
 printf("整数a：");
 scanf("%d",&a);
 
