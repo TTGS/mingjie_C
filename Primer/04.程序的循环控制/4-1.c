@@ -22,6 +22,6 @@ do {
 i++;
 		printf("要重复一次吗？【Yes…0 / No…9】:");
 		scanf("%d", &retry);
-}while(retry==0)
+}while(retry==0);
 	return 0;
 }
