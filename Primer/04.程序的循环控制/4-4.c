@@ -13,7 +13,7 @@ int main(void)
 
 	while (no > 0)
 		printf("%d ", no--);	/* no的值在显示之后递减 */
-        if (no<0)
+        if (no<=0)
 		printf("\n");				/* 换行 */
 
 	return 0;
