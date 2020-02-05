@@ -9,8 +9,9 @@ int main(void)
 
 	i = 2;
 	while (i <= no){
-	i=i*2;
+
 	printf("%d ", i);		/* i的值在显示之后递增 */
+	i=i*2;
 	}
         printf("\n");
 	return 0;
