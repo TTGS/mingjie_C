@@ -8,12 +8,12 @@ int main(void)
 	scanf("%d", &no);
 
 
-	while (no-- > 0)
+	while (no-- > 0){
             if ((no%2)==0)
 		putchar('+');
             else 
                 putchar('-');
- 
+	}
 	putchar('\n');
 
 	return 0;
