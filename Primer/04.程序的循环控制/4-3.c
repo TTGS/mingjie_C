@@ -11,7 +11,7 @@ int main(void)
 		printf("%d ", no );
 		no--;			/* no的值递减 */
 	
-        if (no==0)
+        if (no<0)
 	        printf("\n");		/* 换行 */
 }
 	return 0;
