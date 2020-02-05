@@ -18,8 +18,7 @@ int main(void)
 		no /= 10;			/* 右移一位 */
 		i++;
 	}
-	printf("%d的位数是",n,i);
-	puts("。");
+	printf("%d的位数是%d 。\n",n,i); 
 
 	return 0;
 }
