@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int no,n;
+	int no,n,i;
 
 	do {
 		printf("请输入一个正整数：");
