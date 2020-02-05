@@ -8,6 +8,7 @@ int main(void)
 	scanf("%d", &no);
 
 	i = 2;
+	p=1;
 	while (i <= no){
 	printf("%d ", i);		/* i的值在显示之后递增 */
 	p++;	
