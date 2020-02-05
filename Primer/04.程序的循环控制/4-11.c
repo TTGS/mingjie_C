@@ -11,10 +11,10 @@ int main(void)
 			puts("\a请不要输入非正整数。");
 	} while (no <= 0);
         n=no;
+	i=1;
 	/* no比0大时 */
 
-	while (no > 0) {
-		printf("%d", no % 10);		/* 显示最后一位数 */ 
+	while (no > 0) { 
 		no /= 10;			/* 右移一位 */
 		i++;
 	}
