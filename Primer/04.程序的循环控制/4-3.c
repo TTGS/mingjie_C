@@ -2,17 +2,18 @@
 
 int main(void)
 {
-	int no;
+	int no,n;
 
 	printf("请输入一个正整数：");
 	scanf("%d", &no);
+        n=no;
 
 	while (no >= 0) {
 		printf("%d ", no );
 		no--;			/* no的值递减 */
-	
-        if (no<0)
+        }
+        if ((no==-1) && (n>=0) )
 	        printf("\n");		/* 换行 */
-}
+
 	return 0;
 }
