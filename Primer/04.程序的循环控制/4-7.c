@@ -10,9 +10,10 @@ int main(void)
 	i = 2;
 	p=1;
 	while (i <= no){
+	i=i^p;
 	printf("%d ", i);		/* i的值在显示之后递增 */
 	p++;	
-	i=i^p;
+
 	}
         printf("\n");
 	return 0;
