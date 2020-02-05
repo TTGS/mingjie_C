@@ -12,11 +12,13 @@ int main(void)
 	} while (no <= 0);
         n=no;
 	/* no比0大时 */
-	printf("%d逆向显示的结果是",n);
+
 	while (no > 0) {
 		printf("%d", no % 10);		/* 显示最后一位数 */ 
-		no /= 10;					/* 右移一位 */
+		no /= 10;			/* 右移一位 */
+		i++;
 	}
+	printf("%d的位数是",n,i);
 	puts("。");
 
 	return 0;
