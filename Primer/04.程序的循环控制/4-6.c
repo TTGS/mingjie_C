@@ -10,11 +10,12 @@ int main(void)
 	i = 2;
 	while (i <= no){
 	if ((i%2)==0)	{
-	printf("%d ", i++);		/* i的值在显示之后递增 */
-	i++;	}
+		printf("%d ", i++);		/* i的值在显示之后递增 */
+		i++;	
+	}
 	else 
-	i++;
+		i++;
         }
-
+        printf("\n");
 	return 0;
 }
