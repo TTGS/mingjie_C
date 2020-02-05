@@ -16,7 +16,7 @@ int main(void)
 
 do {
 sum=sum+temp;
-temp=temp-1
+temp=temp-1;
 }while(temp!=b);
 
 	printf("大于等于%d小于等于%d的所有整数的和是:%d \n",a,b,sum);
