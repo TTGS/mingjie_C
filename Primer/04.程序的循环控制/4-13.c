@@ -4,7 +4,7 @@ int main(void)
 {
 	int no,sum,i;
 
-	printf("请输入一个正整数：");
+	printf("n的值：");
 	scanf("%d", &no);
  	i=no;
 	sum=0;
