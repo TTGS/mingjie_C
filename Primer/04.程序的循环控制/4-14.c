@@ -10,12 +10,13 @@ int main(void)
 	q=1;
 	i=1;
 	while (i<=no) { 
-		printf("%d",q++);
+		printf("%d",q);
         	if (q==9)
 			q=0;
+		q++;
 		i++;
 	}
-	 
+	 printf("\n",);
 
 	return 0;
 }
