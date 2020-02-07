@@ -9,7 +9,7 @@ int main(void)
  	i=1;
 
 	while (i<=n) { 
-		printf("%d的二次方是%d",i,i*i);
+		printf("%d的二次方是%d\n",i,i*i);
  		i++;
 	}
 	printf("\n");
