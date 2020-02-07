@@ -10,7 +10,7 @@ int main(void)
 
 	while (i<=n) { 
 		printf("*");
-                if (i==5)
+                if ((i%5)==0)
 			printf("\n");
  		i++;
 	} 
