@@ -20,7 +20,7 @@ int main(void)
 	scanf("%d", &i);
  	 
 	while (b<=e) { 
-		printf("%dcm	%.2dkg \n",b,(b-100)*0.9);
+		printf("%dcm	%.2fkg \n",b,(b-100)*0.9);
  		b=b+i;
 	}
 	 printf("\n" );
