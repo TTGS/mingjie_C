@@ -13,7 +13,8 @@ int main(void)
 		printf("%d",q);
         	if (q==9)
 			q=0;
-		q++;
+              	 else
+			q++;
 		i++;
 	}
 	 printf("\n" );
