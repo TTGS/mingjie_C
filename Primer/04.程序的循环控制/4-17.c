@@ -6,10 +6,11 @@ int main(void)
 
 	printf("n的值：");
 	scanf("%d", &n);
- 	
+ 	i=1;
+
 	while (i<=n) { 
 		printf("%d的二次方是%d",i,i*i);
- 		n++;
+ 		i++;
 	}
 	printf("\n");
 
