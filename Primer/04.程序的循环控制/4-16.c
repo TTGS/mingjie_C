@@ -12,7 +12,7 @@ int main(void)
 		printf("%d ",i);
  		i=i+2;
 	}
-	printf("\n ");
+	printf("\n");
 
 	return 0;
 }
