@@ -4,7 +4,7 @@ int main(void)
 {
 	int no,q,i;
 
-	printf("n的值：");
+	printf("请输入一个整数：");
 	scanf("%d", &no);
  	 
 	q=1;
