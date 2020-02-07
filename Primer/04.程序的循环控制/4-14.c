@@ -16,7 +16,7 @@ int main(void)
 		q++;
 		i++;
 	}
-	 printf("\n",);
+	 printf("\n" );
 
 	return 0;
 }
