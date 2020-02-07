@@ -11,8 +11,7 @@ int main(void)
 	while (i<=n) { 
 		printf("%d的二次方是%d\n",i,i*i);
  		i++;
-	}
-	printf("\n");
+	} 
 
 	return 0;
 }
