@@ -15,6 +15,6 @@ int main(void)
                         y=y+1;}
  		i++;
 	} 
-	printf("约数有%d个\n" ,i);
+	printf("约数有%d个\n" ,y);
 	return 0;
 }
