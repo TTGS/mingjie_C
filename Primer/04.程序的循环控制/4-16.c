@@ -9,9 +9,10 @@ int main(void)
  	
         i=1;
 	while (i<=no) { 
-		printf("%d",i);
+		printf("%d ",i);
  		i=i+2;
 	}
+	printf("\n ");
 
 	return 0;
 }
