@@ -23,7 +23,6 @@ int main(void)
 		printf("%dcm	%.2fkg \n",b,(b-100)*0.9);
  		b=b+i;
 	}
-	 printf("\n" );
 
 	return 0;
 }
