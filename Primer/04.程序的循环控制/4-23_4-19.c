@@ -12,7 +12,7 @@ int main(void)
 	printf("短边：");
 	scanf("%d", &len);
 
-	for (i = 1; i <= len; i++) {		/* i 行(i = 1, 2, --- , len) */
+	for (i = 0; i <= len; i++) {		/* i 行(i = 1, 2, --- , len) */
 		for (j = 1; j <=   i; j++)	/* 每行显示len-i 个' ' */
 			putchar(' ');
 		for (j = 1; j <= len-i; j++)		/* 每行显示i 个'*' */
