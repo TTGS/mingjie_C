@@ -11,7 +11,7 @@ printf("  |  1  2  3  4  5  6  7  8  9 \n");
 printf("------------------------------\n");
 	for (i = 1; i <= 9; i++) {
 			if (i==1) 
-			printf("%2d|", i * j);
+			printf("%2d|", i );
 		for (j = 1; j <= 9; j++)
 			{ 
 			printf("%3d", i * j);
