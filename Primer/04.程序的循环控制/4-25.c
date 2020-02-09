@@ -13,7 +13,7 @@ int main(void)
 		for (i = 1; i <= len; i++)
 		{
 			for(j=1;j<= 2*len-i ;j++){
-				if( j<=len-i   )
+				if( j<=i-1   )
 					putchar(' ');
 				else 
 					printf("%d",i); 
