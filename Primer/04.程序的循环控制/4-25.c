@@ -16,7 +16,7 @@ int main(void)
 				if( j<=len-i   )
 					putchar(' ');
 				else 
-					putchar('*'); 
+					printf("%d",i); 
 			}
 		putchar('\n');	 
 		}
