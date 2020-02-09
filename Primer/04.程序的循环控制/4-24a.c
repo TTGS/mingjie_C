@@ -10,7 +10,7 @@ int main(void)
  
 		for (i = 1; i <= len; i++)
 		{
-			for(j=1;j<= len+1 ;j++){
+			for(j=1;j<= len+i-1 ;j++){
 				if( j<=len-i   )
 					putchar(' ');
 				else 
