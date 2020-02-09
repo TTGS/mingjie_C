@@ -3,8 +3,8 @@
 int main(void)
 {
 	int i,j, no;
-
-	printf("请输入一个正整数：");
+	printf("生成一个正方形\n");
+	printf("正方形有几层：");
 	scanf("%d", &no);
 
 for(i=1;i<=no;i++)
@@ -15,8 +15,5 @@ for(i=1;i<=no;i++)
 	}
 printf("\n");
 }
-
-
-        printf("\n");
 	return 0;
 }
