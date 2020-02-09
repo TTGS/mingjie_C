@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0; i <= 10; i++) {
                 //当i=0时，相当于左上角没东西，所以手动为空
 		if (i==0) { 
- 			printf("   |" );
+ 			printf("  |" );
 			}
                 //当i=1时，输出横线，
 		else if ((i-1)==0)
