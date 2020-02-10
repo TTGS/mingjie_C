@@ -11,7 +11,7 @@ int main(void)
 	int b[5];	
 
 	for (i = 0; i < 5; i++)
-		b[i] = a[5-i];
+		b[i] = a[i];
 
 	puts("  a    b");
 	puts("---------");
