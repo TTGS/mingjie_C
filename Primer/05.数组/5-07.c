@@ -22,6 +22,6 @@ printf("{");
 		if (i+1!=k)
 		printf(",");	
 	}
-printf("}");
+printf("}\n");
 	return 0;
 }
