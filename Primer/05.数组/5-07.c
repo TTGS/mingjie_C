@@ -19,6 +19,7 @@ int main(void)
 printf("{");
 	for (i = 0; i < k; i++)	{
 		printf("%d", x[i]);
+		if (i+1!=k)
 		printf(",");	
 	}
 printf("}");
