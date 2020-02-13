@@ -34,11 +34,7 @@ int main(void)
 	}
 
 	puts("\n---分布图---");
-	printf("      100：");
 
-	for (j = 0; j < bunpu[10]; j++)			/* 100分 */
-		putchar('*');
-	putchar('\n');
 
 	for (i =0; i <= 9; i++) {				/* 不到100分 */
 		printf("%3d - %3d：", i * 10, i * 10 + 9);
@@ -46,6 +42,11 @@ int main(void)
 			putchar('*');
 		putchar('\n');
 	}
+	printf("      100：");
+
+	for (j = 0; j < bunpu[10]; j++)			/* 100分 */
+		putchar('*');
+	putchar('\n');
 
 	return 0;
 }
