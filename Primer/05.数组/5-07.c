@@ -8,7 +8,7 @@ int main(void)
 {
 	int i,k;
 
-	printf("数据个数 : ", k);
+	printf("数据个数 : ");
 	scanf("%d", &k);
 	int x[k]; 
 
