@@ -39,7 +39,7 @@ int main(void)
 	for (i =0; i <= 10; i++) {				/* 不到100分 */
 		printf("%3d：", i * 10);
 		for (j = 0; j < bunpu[i]; j++){
-			printf('*');
+			printf("*");
 			
 		}
 		putchar('\n');
@@ -47,7 +47,7 @@ int main(void)
 	printf("      100：");
 
 	for (j = 0; j < bunpu[10]; j++)			/* 100分 */
-		printf('*');
+		printf("*");
 	putchar('\n');
 
 	return 0;
