@@ -40,7 +40,7 @@ int main(void)
 		putchar('*');
 	putchar('\n');
 
-	for (i =0; i >= 9; i++) {				/* 不到100分 */
+	for (i =0; i <= 9; i++) {				/* 不到100分 */
 		printf("%3d - %3d：", i * 10, i * 10 + 9);
 		for (j = 0; j < bunpu[i]; j++)
 			putchar('*');
