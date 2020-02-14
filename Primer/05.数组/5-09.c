@@ -41,7 +41,9 @@ int main(void)
 		printf("%3d",bunpu[i]);	
 	}
 		printf("\n");
-	for (j=max;j>=-1;j--)
+
+
+	for (j=max;j>=1;j--)
 	{
 		for (i=0;i<num;i++)
 		{
