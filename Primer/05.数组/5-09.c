@@ -33,21 +33,19 @@ int main(void)
 		bunpu[tensu[i] / 10]++;
 	}
 
-//比大小
+	//比大小
 	max=bunpu[0];
 	for (i =0; i <= 9; i++) {
 		
 		if (bunpu[i]>=max)
 			max=bunpu[i];
-		printf("%3d",bunpu[i]);	
 	}
-		printf("max:%d\n",max);
 
-
+	//行
 	for (j=max;j>=1;j--)
-	{
+	{       //列
 		for (i=0;i<num;i++)
-		{  
+		{       //数组里写3,那么就出3个星花，如果是0,那就不出。
 			if (bunpu[i]>=j)
 				printf("  * ");
 			else
@@ -55,10 +53,13 @@ int main(void)
 		}
 	printf("\n");
 	}
+	//底下的横线和成绩刻度，如果放在上面的for里，那么会少。
+	//最高30分，那么后面的都没有了，因为后面的就没有显示空格或者星花。
 	printf("---------------------------------------------\n");
 	for (i=0;i<11;i++){
 	printf("  %d",i*10);
 	}
 	printf("\n");
+
 	return 0;
 }
