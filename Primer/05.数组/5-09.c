@@ -49,9 +49,9 @@ int main(void)
 		for (i=0;i<num;i++)
 		{  
 			if (bunpu[i]>=j)
-				printf(" *");
+				printf(" * ");
 			else
-				printf("  ");	
+				printf("   ");	
 		}
 	printf("\n");
 	}
