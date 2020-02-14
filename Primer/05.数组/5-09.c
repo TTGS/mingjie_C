@@ -38,8 +38,9 @@ int main(void)
 		max=bunpu[0];
 		if (bunpu[i]>=max)
 			max=bunpu[i];
-		printf("%3d\n",bunpu[i]);	
+		printf("%3d",bunpu[i]);	
 	}
+		printf("\n");
 	for (j=max;j>=-1;j--)
 	{
 		for (i=0;i<num;i++)
