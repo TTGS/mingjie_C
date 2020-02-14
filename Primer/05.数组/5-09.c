@@ -57,7 +57,7 @@ int main(void)
 	}
 	printf("---------------------------------\n");
 	for (i=0;i<11;i++){
-	printf("%3d",i*10);
+	printf("%4d",i*10);
 	}
 	return 0;
 }
