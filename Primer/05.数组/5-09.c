@@ -37,7 +37,7 @@ int main(void)
 
 
 	for (i =0; i <= 9; i++) {
-printf("%d\n",bunpu[i]);				 
+printf("%d : %d\n",i,bunpu[i]);				 
 		/*printf("%3d - %3d：", i * 10, i * 10 + 9);
 		for (j = 0; j < bunpu[i]; j++)
 			putchar('*');
