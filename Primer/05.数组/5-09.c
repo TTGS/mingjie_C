@@ -38,17 +38,23 @@ int main(void)
 		max=bunpu[0];
 		if (bunpu[i]>=max)
 			max=bunpu[i];
-printf("%3d",bunpu[i]);	
-}
-	for (j=max;j>=1;j--)
+		printf("%3d",bunpu[i]);	
+	}
+	for (j=max;j>=-1;j--)
 	{
 		for (i=0;i<num;i++)
 		{
 			if (bunpu[i]==j)
 				printf(" * ");
 			else
-				printf("   ");
+				printf("   ");	
+			if (j==0)
+				printf("---");
+			if (j==-1)
+				printf("%3d",i*10);
 		}
+
 	}
+	printf("\n");
 	return 0;
 }
