@@ -46,7 +46,7 @@ int main(void)
 	for (j=max;j>=1;j--)
 	{
 		for (i=0;i<num;i++)
-		{
+		{ printf("%d",bunpu[i]);
 			if (bunpu[i]==j)
 				printf(" * ");
 			else
