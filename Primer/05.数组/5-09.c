@@ -40,7 +40,7 @@ int main(void)
 			max=bunpu[i];
 		printf("%3d",bunpu[i]);	
 	}
-		printf("\n");
+		printf("max:%d\n",max);
 
 
 	for (j=max;j>=1;j--)
