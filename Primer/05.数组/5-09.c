@@ -49,10 +49,7 @@ int main(void)
 				printf(" * ");
 			else
 				printf("   ");	
-			if (j==0)
-				printf("---");
-			if (j==-1)
-				printf("%3d",i*10);
+		printf("\n");
 		}
 	printf("\n");
 	}
