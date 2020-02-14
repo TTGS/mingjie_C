@@ -49,15 +49,15 @@ int main(void)
 		for (i=0;i<num;i++)
 		{  
 			if (bunpu[i]>=j)
-				printf(" * ");
+				printf("  *  ");
 			else
-				printf("   ");	
+				printf("     ");	
 		}
 	printf("\n");
 	}
 	printf("---------------------------------\n");
 	for (i=0;i<11;i++){
-	printf("%4d",i*10);
+	printf("%5d\n",i*10);
 	}
 	return 0;
 }
