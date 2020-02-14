@@ -34,8 +34,9 @@ int main(void)
 	}
 
 //比大小
+max=bunpu[0];
 	for (i =0; i <= 9; i++) {
-		max=bunpu[0];
+		
 		if (bunpu[i]>=max)
 			max=bunpu[i];
 		printf("%3d",bunpu[i]);	
