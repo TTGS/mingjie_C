@@ -48,7 +48,7 @@ int main(void)
 	{
 		for (i=0;i<num;i++)
 		{  
-			if (bunpu[i]==j)
+			if (bunpu[i]<=j)
 				printf(" * ");
 			else
 				printf("   ");	
