@@ -9,8 +9,8 @@ int main(void)
     int  i,j;
 
 
-for(i=0;i<=3;i++){
-for(j=0;j<=2;j++){
+for(i=0;i<=4;i++){
+for(j=0;j<=3;j++){
 printf("a:[%d][%d]:%d",i,j,a[i][j]) ; 
 }
 printf("\n");
