@@ -27,8 +27,8 @@ printf("n:[%d][%d]:%d\n",i,j,n[i][j]) ;
 printf("\n");
 }
 
-for(i=0;i<=4;i++){
-for(j=0;j<=4;j++){
+for(i=0;i<=3;i++){
+for(j=0;j<=3;j++){
 printf("%5d",n[i][j]) ;
 }
 printf("\n");
