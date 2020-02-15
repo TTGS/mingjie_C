@@ -21,7 +21,7 @@ printf("\n");
 
 for(i=0;i<=2;i++){
 for(j=0;j<=3;j++){
-n[i][j]=n[i][j]+a[i][j]*b[j][i];
+n[i][j]=n[i][j]+a[j][i]*b[i][j];
 printf("n:[%d][%d]:%d\n",i,j,n[i][j]) ;
 }
 printf("\n");
