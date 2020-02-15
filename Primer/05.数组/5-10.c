@@ -21,13 +21,13 @@ printf("\n");
 
 for(i=0;i<=2;i++){
 for(j=0;j<=3;j++){
-n[i][j]=n[i][j]+a[j][i]*b[j][i];
+n[i][j]=n[i][j]+a[i][j]*b[j][i];
 }
 }
 
 for(i=0;i<=4;i++){
 for(j=0;j<=4;j++){
-printf("%d",n[i][j]) ;
+printf("%5d",n[i][j]) ;
 }
 printf("\n");
 }
