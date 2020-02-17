@@ -19,9 +19,10 @@ h=0;
 	temp=0;
 	for(i=0;i<=3;i++)
 	{
-		temp=0;
+		
 		for(h=0;h<=3;h++)
 		{
+temp=0;
 				for(j=0;j<=2;j++)
 				{
 					temp=temp+a[i][j]*b[j][i];
