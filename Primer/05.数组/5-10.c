@@ -4,7 +4,7 @@ int main(void)
 {
 
     int  a[4][3]={0};
-    int  b[3][4]={{0};
+    int  b[3][4]={0};
     int  n[4][4]={0};
     int  i,j,m,h,temp;
 
