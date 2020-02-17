@@ -22,7 +22,7 @@ p=0;
 for (k=0;k<=3;k++){
 for(i=0;i<=2;i++){
 for(j=0;j<=3;j++){
-temp[i]=temp[i]+a[[j]i]*b[i][j];
+temp[i]=temp[i]+a[i][j]*b[j][i];
 printf("temp:[%d]:%d\n",i,temp[i]) ;
 }
 
@@ -32,7 +32,7 @@ n[p][l]=temp[l];
 }
 p++;
 }
-
+temp[4]={0};
 }
 
 for(i=0;i<=3;i++){
