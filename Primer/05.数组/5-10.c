@@ -28,12 +28,14 @@ for(h=0;h<=3;h++){
 			temp=temp+a[i][j]*b[j][i];
 			printf("i=%d , j=%d ,temp=%d\n",i,j,temp) ;
 		}
-	}
-
-n[m][h]=temp;
+	n[m][h]=temp;
 	if (h==3) 
 		m++;
-temp=0;
+	temp=0;
+	}
+
+
+
 }
 
 
