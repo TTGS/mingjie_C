@@ -22,7 +22,7 @@ printf("\n");
 m=0;
 temp=0;
 h=0;
-//for(h=0;h<=3;h++){
+for(h=0;h<=3;h++){
 
 	for(i=0;i<=3;i++){
 		for(j=0;j<=2;j++){
@@ -34,10 +34,10 @@ h=0;
 		m++;
 	temp=0;
 	}
-printf("i=%d , j=%d, m=%d,h=%d,temp=%d,n=%d \n",i,j,m,h,temp,n[m][h]) ;
 
 
-//}
+
+}
 
 /*
 //显示 矩阵乘法之后的内容。
