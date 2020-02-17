@@ -62,12 +62,13 @@ temp=0;
 
 
 //显示 矩阵乘法之后的内容。
-for(i=0;i<=3;i++){
-for(j=0;j<=3;j++){
-printf("%5d",n[i][j]) ;
-}
-printf("\n");
-}
+	for(i=0;i<=3;i++){
+		for(j=0;j<=3;j++)
+		{
+			printf("%5d",n[i][j]) ;
+		}
+		printf("\n");
+	}
 
 
     return 0;
