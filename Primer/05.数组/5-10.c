@@ -26,7 +26,7 @@ h=0;
 				printf("i=%d , j=%d, m=%d,h=%d,temp=%d\n",i,j,m,h,temp) ;
 			}
 		n[m][h]=temp;
-		if (i==3) 
+		if (h==3) 
 			m++;
 		h++;
 
