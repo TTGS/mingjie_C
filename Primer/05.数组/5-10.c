@@ -29,7 +29,7 @@ h=0;
 			temp=temp+a[i][j]*b[j][i];
 			printf("i=%d , j=%d, m=%d,h=%d,temp=%d\n",i,j,m,h,temp) ;
 		}
-	n[m][h]=temp;
+	n[m][i]=temp;
 	if (h==3) 
 		m++;
 	temp=0;
