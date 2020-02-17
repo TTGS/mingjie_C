@@ -20,18 +20,19 @@ printf("\n");
 */
 
 m=0;
-for(h=0;h<=3;h++){
 temp=0;
-for(i=0;i<=3;i++){
-for(j=0;j<=2;j++){
-temp=temp+a[j][i]*b[i][j];
-printf("i=%d , j=%d ,temp=%d\n",i,j,temp) ;
-}
-}
+for(h=0;h<=3;h++){
+
+	for(i=0;i<=3;i++){
+		for(j=0;j<=2;j++){
+			temp=temp+a[i][j]*b[j][i];
+			printf("i=%d , j=%d ,temp=%d\n",i,j,temp) ;
+		}
+	}
 
 n[m][h]=temp;
-if (h==3) 
-	m++;
+	if (h==3) 
+		m++;
 temp=0;
 }
 
