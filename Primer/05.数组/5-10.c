@@ -23,9 +23,9 @@ h=0;
 			for(j=0;j<=2;j++)
 			{
 				temp=temp+a[i][j]*b[j][i];
-		
-			}
 		printf("i=%d , j=%d, m=%d,h=%d,temp=%d\n",i,j,m,h,temp) ;
+			}
+
 		n[m][h]=temp;
 		if (h==3) 
 			m++;
