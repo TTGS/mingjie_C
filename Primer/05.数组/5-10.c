@@ -19,7 +19,7 @@ printf("\n");
 }
 */
 p=0;
-for (k=0;k<=3k++){
+for (k=0;k<=3;k++){
 for(i=0;i<=2;i++){
 for(j=0;j<=3;j++){
 temp[i]=temp[i]+a[i][j]*b[j][i];
