@@ -12,21 +12,41 @@ int main(void)
 // 18,18,18,18
 // 24,24,24,24
 
+//输入值
+	for(i=0;i<=3;i++)
+	{
+		for(j=0;j<=2;j++)
+		{
+		printf("a的第%d行,第%d列的值是:",i,j);
+		scanf("%d"&a[i][j]);
+		}
+	}
+
+	for(i=0;i<=3;i++)
+	{
+		for(j=0;j<=2;j++)
+		{
+		printf("b的第%d行,第%d列的值是:",i,j);
+		scanf("%d"&b[i][j]);
+		}
+	}
+
+
 m=0;
 temp=0;
-h=0;
-
-	temp=0;
+//运算过程
+//a的行，
 	for(i=0;i<=3;i++)
 	{
 		
 		for(h=0;h<=3;h++)
 		{
-temp=0;
+		temp=0;
+				//单独写一个j，那么只是矩阵的第一个数，
+				//4×3 和3×4的矩阵，第一行乘第一列， 第一行乘第二列，....
 				for(j=0;j<=2;j++)
 				{
 					temp=temp+a[i][j]*b[j][i];
-			printf("i=%d , j=%d, m=%d,h=%d,temp=%d\n",i,j,m,h,temp) ;
 				}
 
 			n[m][h]=temp;
