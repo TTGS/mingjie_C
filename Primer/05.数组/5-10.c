@@ -23,7 +23,7 @@ for (k=0;k<=3;k++){
 for(i=0;i<=2;i++){
 for(j=0;j<=3;j++){
 temp[i]=temp[i]+a[i][j]*b[j][i];
-printf("n:[%d][%d]:%d\n",i,j,n[i][j]) ;
+printf("temp:[%d]:%d\n",i,temp[i]) ;
 }
 
 for(l=0;l<=4;l++)
