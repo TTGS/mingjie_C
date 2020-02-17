@@ -21,24 +21,24 @@ printf("\n");
 
 m=0;
 temp=0;
-for(h=0;h<=3;h++){
+//for(h=0;h<=3;h++){
 
 	for(i=0;i<=3;i++){
 		for(j=0;j<=2;j++){
 			temp=temp+a[i][j]*b[j][i];
-			printf("i=%d , j=%d, m=%d,h=%d,temp=%d\n",i,j,m,h,temp) ;
+			//printf("i=%d , j=%d, m=%d,h=%d,temp=%d\n",i,j,m,h,temp) ;
 		}
 	n[m][h]=temp;
 	if (h==3) 
 		m++;
 	temp=0;
 	}
+printf("i=%d , j=%d, m=%d,h=%d,temp=%d\n",i,j,m,h,temp) ;
 
 
+//}
 
-}
-
-
+/*
 //显示 矩阵乘法之后的内容。
 for(i=0;i<=3;i++){
 for(j=0;j<=3;j++){
@@ -46,7 +46,7 @@ printf("%5d",n[i][j]) ;
 }
 printf("\n");
 }
-
+*/
 
     return 0;
 } 
