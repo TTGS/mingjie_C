@@ -18,7 +18,7 @@ int main(void)
 		for(j=0;j<=2;j++)
 		{
 		printf("a的第%d行,第%d列的值是:",i,j);
-		scanf("%d"&a[i][j]);
+		scanf("%d",&a[i][j]);
 		}
 	}
 
@@ -27,7 +27,7 @@ int main(void)
 		for(j=0;j<=2;j++)
 		{
 		printf("b的第%d行,第%d列的值是:",i,j);
-		scanf("%d"&b[i][j]);
+		scanf("%d",&b[i][j]);
 		}
 	}
 
