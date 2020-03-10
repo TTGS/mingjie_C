@@ -1,5 +1,7 @@
 #include <stdio.h>
- 
+/*
+效果没出来。
+*/
 int main(void)
 {
 	unsigned x,y ,z;
