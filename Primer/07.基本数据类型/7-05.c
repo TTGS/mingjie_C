@@ -29,8 +29,8 @@ int main(void)
 	printf("请输入操作的到位数："); 
 	scanf("%u",&n);
 //printf("%ld \n"   , sizeof(i)  );
-	printf("%d将第%d位后设为1的值%d\n",i,pos,set(i, pos,n));
-	printf("%d将第%d位后设为0的值%d\n",i,pos,reset(i, pos,n));
-	printf("%d将第%d位后 取反的值%d\n"   ,i,  pos,inverse(i, pos,n));  
+	printf("%d将第%d位后设为1的值%d\n",i,pos,set_n(i, pos,n));
+	printf("%d将第%d位后设为0的值%d\n",i,pos,reset_n(i, pos,n));
+	printf("%d将第%d位后 取反的值%d\n"   ,i,  pos,inverse_n(i, pos,n));  
 	return 0;
  }  
