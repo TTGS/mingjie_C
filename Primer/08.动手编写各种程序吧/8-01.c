@@ -1,8 +1,18 @@
 #include <stdio.h>
 
-int main() {
-    int n; 
-    printf("%ld\t%ld\t%ld\n", sizeof +1, sizeof(double) - 1, sizeof(n + 2));                                                              
-    printf("%ld\t%ld\t%ld\n", sizeof +1, sizeof(double) - 1, sizeof(n + 2)); 
-    printf("%ld\t%ld\t%ld\n", sizeof - 1, sizeof((double)-1), sizeof (n + 2.0)  ); 
+#define diff(x,y)  ((x) - (y))	
+
+int main(void)
+{
+	int    n;
+	double x,y;
+
+	printf("请输入一个实数：");
+	scanf("%lf", &x);
+
+	printf("请输入一个实数：");
+	scanf("%lf", &y);
+	printf("该数的差是%lf。\n", diff(x,y));
+
+	return 0;
 }
