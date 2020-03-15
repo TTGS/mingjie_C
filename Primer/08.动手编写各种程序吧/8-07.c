@@ -5,6 +5,12 @@
 int combination(int n,int r)
 {
 int i,c=1,m=1; 
+if ( (n==r) || (r==0))
+return 1;
+
+if ( (r==1))
+return n;
+
 	for(i=1;i<=r;i++)
 	{
 		m=m*i;
