@@ -7,7 +7,7 @@ int main(void)
 
 	do
 	{
-		puts("请输入：");
+		printf("请输入：");
 		i++;
 	}while(getchar()!=EOF);
 	printf("\n%d\n",i); 
