@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-void str_char(const char s[] ,int c)
+int str_char(const char s[] ,int c)
 {
 int i=0 ;
 
