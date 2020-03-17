@@ -22,6 +22,6 @@ return -1;
 int main(void)
 {
 	char a[]="abbc";  
-	printf("a  = %d  \n",   str_char(a , "b")  );
+	printf("a  = %d  \n",   str_char(a , 'b')  );
 	return 0;
 }
