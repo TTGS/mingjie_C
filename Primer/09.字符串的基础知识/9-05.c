@@ -21,8 +21,7 @@ return -1;
 
 int main(void)
 {
-	char a[]="abbc"; 
-	char b[]="b";
-	printf("a  = %d  \n",   str_char(a , b)  );
+	char a[]="abbc";  
+	printf("a  = %d  \n",   str_char(a , "b")  );
 	return 0;
 }
