@@ -22,7 +22,7 @@ return -1;
 int main(void)
 {
 	char a[]="abbc";
-	char c="b";
+	char c ;
 
 	printf("a  = %d  \n",   str_char(a ,c)  );
 	return 0;
