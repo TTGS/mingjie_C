@@ -24,6 +24,6 @@ int main(void)
 	char a[]="abbc";
 	char c="b";
 
-	printf("a  = %d  \n",   str_char(a[],c)  );
+	printf("a  = %d  \n",   str_char(a ,c)  );
 	return 0;
 }
