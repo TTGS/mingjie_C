@@ -9,7 +9,7 @@ void rev_string(char s[][128], int n) {
 		j++; 						 
 	}
 	for(k = 0; k < j/2; k++){		 
-		temp = s[i][a];
+		temp = s[i][k];
 		s[i][k] = s[i][j - k - 1];
 		s[i][j - k -1] = temp;
 	}
