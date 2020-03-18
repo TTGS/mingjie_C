@@ -1,5 +1,4 @@
 #include <stdio.h>
-//TMD ， 注意，题目要求是s[]的要求是const，不能修改s[] ，所以赋值temp，让temp输出。
 void del_string(const char s[] )
 {
 int ri=0,i=0  ;
