@@ -1,22 +1,17 @@
-#include <stdio.h>
+/*
+	用指针实现的字符串的改写
+*/
 
-void adjust_point(int *n)
-{
-if (*n<0)
-	*n=0;
-else if (*n>100)
-	*n=100;
-else 
-	*n=*n;
-}
+#include <stdio.h>
 
 int main(void)
 {
-	int na ; 
+	char *p = "123"; 
 
-	printf("请输入两个整数。\n");
-	printf("整数 ：");   scanf("%d", &na); 
-	adjust_point(&na);
-	printf("调整完是 ：%d\n" ,na);
+	printf("p = \"%s\"\n", p); 
+	p = "456"+1;		/* OK！ */
 
+	printf("p = \"%s\"\n", p);
+
+	return 0;
 }
