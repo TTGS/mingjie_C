@@ -6,7 +6,7 @@ int str_chnum(const char* s,int c) {
     int  count=0;	
 	 
     while (*s!='\0') {
-        
+        printf("%s",s);
         if (*s == c) {
             count++;
         }
