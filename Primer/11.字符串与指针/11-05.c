@@ -3,16 +3,16 @@
 
 int str_chnum(const char* s,int c) {
 
-    int  count=0;	
-	 
-    while (*s!='\0') {
-        printf("%s",s);
+    int cnt = 0;
+
+    while (*s != '\0') {
+        
         if (*s == c) {
-            count++;
+            cnt++;
         }
         *s++;
     }
-    return count;
+    return cnt;
     
 }
 
@@ -20,12 +20,11 @@ int str_chnum(const char* s,int c) {
 
 int main() {
     char s[123] ;
-    char c ;    
-	printf("请输入字符串:");
-	scanf("%s", s);
-	printf("要计数的字符是：");
-	scanf("%s", &c);
-
+    char c ;
+    printf("要计数的字符是：");
+    scanf("%c", &c);
+    printf("请输入字符串:");
+    scanf("%s",s);
     
     printf("%d\n", str_chnum(s, c));
 }
