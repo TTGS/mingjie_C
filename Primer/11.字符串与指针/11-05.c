@@ -12,7 +12,7 @@ int str_chnum(const char* s,int c) {
         }
         *s++;
     }
-    return cnt;
+    return count;
     
 }
 
