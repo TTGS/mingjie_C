@@ -3,9 +3,15 @@
 
 int str_chnum(const char* s,int c) {
 
-    int count = 0;
-
-    while (*s != '\0') {
+    int count  ;
+        if (*s == c) {
+            count=1;
+        }
+	else 
+	{
+		count=0;	
+	}
+    while (*s ++) {
         
         if (*s == c) {
             count++;
