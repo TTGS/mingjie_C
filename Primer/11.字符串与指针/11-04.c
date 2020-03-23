@@ -6,6 +6,8 @@ void put_string(const char *s)
 putchar( *s); 
 	while (  *s++)
 		putchar(*s); 
+
+	printf("\n" );
 }
 
 int main(void)
